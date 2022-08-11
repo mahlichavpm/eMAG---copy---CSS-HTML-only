@@ -36,8 +36,13 @@ body {
 .header-main-container {
   display: flex;
   width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
   justify-content: center;
   background-color: white;
+  border-bottom: 3px solid;
+  border-image: linear-gradient( to right, #ff1d25 5%, #a0328c 35%, #7040a4 45%, #4359c7 55%, #0082e6 70% ) 1;
 }
 
 .header-container {
@@ -311,6 +316,7 @@ body {
   height: 395px;
   margin: 5px;
   position: relative;
+  z-index: 0;
   border-radius: 6px;
 }
 
@@ -604,4 +610,9 @@ body {
 
 .sub-menu-img-container > img {
   width: 600px;
+}
+
+#spacer {
+  width: 100%;
+  height: 56px;
 }
