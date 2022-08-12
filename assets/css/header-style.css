@@ -616,3 +616,81 @@ body {
   width: 100%;
   height: 56px;
 }
+
+.sections {
+  height: 50px;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.most-popular {
+  display: inline-block;
+  border-top: 3px solid #005eb8;
+  padding: 14px 30px;
+  box-shadow: 0 0 8px rgba(33, 33, 33, 0.1);
+}
+
+.brands-header {
+  margin-bottom: 15px;
+}
+
+.sub-sections {
+  padding: 17px 30px;
+  display: inline-block;
+}
+
+.most-popular > a {
+  text-decoration: none;
+  color: #005eb8;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.sub-sections > a {
+  text-decoration: none;
+  color: #222;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.sub-sections > a:hover {
+  color:#002a52
+}
+
+.brands-container {
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+  height: 340px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.brand-img {
+  display: inline-block;
+  width: 200px;
+  padding: 50px 50px;
+  height: 140px;
+  box-sizing: border-box;
+  margin-left: -4px;
+}
+
+.brand-img > img {
+  width: 99px;
+  height: 43px;
+}
+
+.top-border {
+  border-top: 1px solid #eeeeee;
+}
+
+.right-border {
+  border-right: 1px solid #eeeeee;
+}
+
+.last-section {
+  margin-top: 40px;
+}
+
+.only-hl {
+  line-height: 1.4;
+}
